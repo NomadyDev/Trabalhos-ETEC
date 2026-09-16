@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #000850;
+    color:#fff;
+    padding: 40px 0;
+}
+
+footer .linha-footer{
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+}
+
+footer .linha-footer2{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+}
+
+.linha-footer h2{
+    font-size: 2.5rem;
+
+}
+
+.linha-footer p{
+    font-size: 1.2rem;
+    margin: 10px 0 20px 0;
+}
+
+.linha-footer form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha-footer form input[type=email]{
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: white;
+    padding: 10px;
+    outline: 0;
+}
+
+.linha-footer form input[type=submit]{
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    border: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.linha-footer form input[type=submit]:hover{
+    background-color: white;
+    color: red;
+}
+
+.linha-footer2 h3{
+    color: red;
+    margin-bottom: 20px;
+}
+
+.linha-footer2 a{
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: .9rem
+}
+
+footer .linha-footer3{
+    padding-top: 40px;
+    text-align: center;
+}
