@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+
+.imgSelecao{
+  width: 300%;
+  max-width: 600px; /* Largura máxima de 600 pixels */
+  height: auto;     /* Ajusta a altura proporcionalmente */
+  display: flex;
+  justify-content: center; /* Centraliza na horizontal */
+  align-items: center;    /* Centraliza na vertical */
+  height: 300px;          /* Altura do container para alinhar verticalmente */
+}
+
+.coluna2{
+    width: 49.2%;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.imgSelecao2{
+  width: 630px;
+  max-width: 700px; /* Largura máxima de 600 pixels */
+  height: auto;     /* Ajusta a altura proporcionalmente */
+  display: flex;
+  justify-content: center; /* Centraliza na horizontal */
+  align-items: center;    /* Centraliza na vertical */
+  height: 300px;          /* Altura do container para alinhar verticalmente */
+}
