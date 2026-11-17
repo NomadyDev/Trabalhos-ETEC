@@ -1,0 +1,28 @@
+algoritmo "exercicio3"
+
+var
+   A, B: vetor[1..10] de inteiro
+   i: inteiro
+
+inicio
+
+   i <- 1
+
+   repita
+      escreva("Digite um numero: ")
+      leia(A[i])
+
+      i <- i + 1
+   ate i > 10
+
+   i <- 1
+
+   repita
+      B[i] <- A[11 - i]
+
+      escreval("B[", i, "] = ", B[i])
+
+      i <- i + 1
+   ate i > 10
+
+fimalgoritmo

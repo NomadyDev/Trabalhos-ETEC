@@ -1,0 +1,27 @@
+algoritmo "exercicio4"
+
+var
+   A: vetor[1..10] de inteiro
+   i, soma: inteiro
+   media: real
+
+inicio
+
+   i <- 1
+   soma <- 0
+
+   repita
+      escreva("Digite um numero: ")
+      leia(A[i])
+
+      soma <- soma + A[i]
+
+      i <- i + 1
+   ate i > 10
+
+   media <- soma / 10
+
+   escreval("A soma dos valores e: ", soma)
+   escreval("A media dos valores e: ", media)
+
+fimalgoritmo

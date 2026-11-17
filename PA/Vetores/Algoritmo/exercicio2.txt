@@ -1,0 +1,19 @@
+algoritmo "exercicio2"
+
+var
+   A, B, C: vetor[1..10] de inteiro
+   i: inteiro
+
+inicio
+
+   i <- 1
+
+   repita
+      escreva("Digite um numero para A: ")
+      leia(A[i])
+
+      escreva("Digite um numero para B: ")
+      leia(B[i])
+
+      i <- i + 1
+   ate i > 10
